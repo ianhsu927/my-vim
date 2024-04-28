@@ -12,6 +12,8 @@ Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
 
+Plug 'folke/tokyonight.nvim'
+Plug 'yianwillis/vimcdoc'
 " For luasnip users.
 " Plug 'L3MON4D3/LuaSnip'
 " Plug 'saadparwaiz1/cmp_luasnip'
@@ -23,6 +25,7 @@ Plug 'hrsh7th/vim-vsnip'
 " For snippy users.
 " Plug 'dcampos/nvim-snippy'
 " Plug 'dcampos/cmp-snippy'
+
 
 call plug#end()
 
