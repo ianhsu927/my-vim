@@ -107,4 +107,5 @@ lua<<EOF
 	require'lspconfig'.lua_ls.setup{}
   require'mason'.setup{}
 	require'mason-lspconfig'.setup{}
+  require'lspconfig'.taplo.setup{}
 EOF
