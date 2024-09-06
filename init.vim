@@ -29,10 +29,15 @@ Plug 'yianwillis/vimcdoc'
 
 call plug#end()
 
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set number
+colorscheme tokyonight
+
 lua<<EOF
   -- Set up nvim-cmp.
   local cmp = require'cmp'
-  require('options')
 
   cmp.setup({
     snippet = {

@@ -5,6 +5,7 @@
 ```bash
 # 这里是用 NeoVim
 brew install neovim
+# 使用 homebrew 安装无法在 root 用户下使用
 ```
 
 ## 插件管理
